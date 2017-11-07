@@ -5,7 +5,7 @@
         <template id="custom_css" name="rlm_website_custom_css assets" inherit_id="web.custom_css">
             <xpath expr="." position="inside">
 		         <!-- All links to CSS and JS files should be added in here. -->
-		         <link rel="stylesheet" href="/rlm_website_custom_css/static/src/css/cssfile.css"/>
+		         <link rel="stylesheet" href="/rlm_website_custom_css/static/src/css/custom.css"/>
             </xpath>
         </template>
     </data>
