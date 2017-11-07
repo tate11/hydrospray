@@ -1,5 +1,5 @@
- # __manifest__.py
- {
+# -*- coding: utf-8 -*-
+{
      'name': "Website Custom CSS",
      'description': "Custom CSS Sheet",
      'category': 'Generic Modules/Others',
