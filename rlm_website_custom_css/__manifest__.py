@@ -34,4 +34,5 @@
     'demo': [
         'demo/demo.xml',
     ],
+    'css': ['static/src/css/custom.css'],
 }
