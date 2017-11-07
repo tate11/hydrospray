@@ -19,10 +19,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': [
-    	'base',
-    	'web',
-    ],
+    'depends': [],
 
     # always loaded
     'data': [
@@ -34,4 +31,5 @@
     'demo': [
         'demo/demo.xml',
     ],
+    'css': ['static/src/css/custom.css'],
 }
