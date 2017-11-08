@@ -16,21 +16,20 @@
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
     # for the full list
     'category': 'Uncategorized',
-    'version': '0.2',
+    'version': '0.4',
 
     # any module necessary for this one to work correctly
-    'depends': ['web'],
+    'depends': ['web','web_editor','website'],
 
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
         'views/views.xml',
-        'views/resources.xml',
+        'views/rlm_website_custom_css.xml',
         'views/templates.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',
     ],
-    'css': ['static/src/css/custom.css'],
 }
