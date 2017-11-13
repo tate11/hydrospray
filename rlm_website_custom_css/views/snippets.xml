@@ -4,17 +4,17 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-md-4">
-          <img alt="client" class="img-circle" src="/theme_tutorial/static/src/img/client_1.jpg"/>
+          <img alt="client" class="img-circle" src="/rlm_website_custom_css/static/src/img/client_1.jpg"/>
           <h3>Client Name</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div class="col-md-4">
-          <img alt="client" class="img-circle" src="/theme_tutorial/static/src/img/client_2.jpg"/>
+          <img alt="client" class="img-circle" src="/rlm_website_custom_css/static/src/img/client_2.jpg"/>
           <h3>Client Name</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div class="col-md-4">
-          <img alt="client" class="img-circle" src="/theme_tutorial/static/src/img/client_3.jpg"/>
+          <img alt="client" class="img-circle" src="/rlm_website_custom_css/static/src/img/client_3.jpg"/>
           <h3>Client Name</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
@@ -23,9 +23,9 @@
   </section>
 </template>
 <template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
-  <xpath expr="//div[@id='snippet_content']/div[@class='o_panel_body']" position="inside">
+  <xpath expr="//div[@id='snippet_feature']/div[@class='o_panel_body']" position="inside">
     <t t-snippet="theme_tutorial.snippet_testimonial"
-       t-thumbnail="/theme_tutorial/static/src/img/ui/snippet_thumb.jpg"/>
+       t-thumbnail="/rlm_website_custom_css/static/src/img/ui/snippet_thumb.jpg"/>
   </xpath>
 </template>
 </odoo>
