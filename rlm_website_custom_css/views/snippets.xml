@@ -1,5 +1,4 @@
 <odoo>
-<data>
 <template id="snippet_testimonial" name="Testimonial snippet">
   <section class="snippet_testimonial">
     <div class="container text-center">
@@ -29,5 +28,4 @@
        t-thumbnail="/theme_tutorial/static/src/img/ui/snippet_thumb.jpg"/>
   </xpath>
 </template>
-</data>
 </odoo>
