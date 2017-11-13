@@ -16,7 +16,7 @@
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
     # for the full list
     'category': 'Uncategorized',
-    'version': '0.4',
+    'version': '0.5',
 
     # any module necessary for this one to work correctly
     'depends': ['web','web_editor','website'],
@@ -27,6 +27,7 @@
         'views/views.xml',
         'views/rlm_website_custom_css.xml',
         'views/templates.xml',
+        'views/snippets.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
