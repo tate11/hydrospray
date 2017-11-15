@@ -17,9 +17,11 @@
 	</template>
 	
 	<template id="snippet_roundbox" name="Rounded Corner Box">
+	  <section class="snippet_roundbox">
 		<div class="roundbox">
 		  Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Lorem ipsum dolor sit amet, consectetur adipiscing elit.	Lorem ipsum dolor sit amet, consectetur adipiscing elit.	Lorem ipsum dolor sit amet, consectetur adipiscing elit.	Lorem ipsum dolor sit amet, consectetur adipiscing elit.	Lorem ipsum dolor sit amet, consectetur adipiscing elit.	Lorem ipsum dolor sit amet, consectetur adipiscing elit.	
 		</div>
+	  </section>
 	</template>
 	
 	<template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
