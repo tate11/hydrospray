@@ -2,6 +2,7 @@
     <data>
     	<template id="assets_frontend" name="rlm_x1 assets" inherit_id="web.assets_frontend">
             <xpath expr="." position="inside">
+            	<link rel="stylesheet" href="/rlm_x1/static/src/less/rlm_x1.less"/>
                 <link rel="stylesheet" href="/rlm_x1/static/src/less/custom1.less"/>
                 <script type="text/javascript" src="/rlm_x1/static/src/js/custom1.js"></script>
             </xpath>
