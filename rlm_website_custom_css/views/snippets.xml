@@ -21,4 +21,103 @@
        t-thumbnail="/rlm_website_custom_css/static/src/img/ui/snippet_thumb.jpg"/>
   </xpath>
 </template>
+<template id="rlm_tabs" inherit_id="website.snippets" name="Tabs">
+	<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+		<div>
+			<div class="louma oe_snippet_thumbnail">
+				<img class="oe_snippet_thumbnail_img"
+					 src="/theme_louma/static/src/images/theme/blocks/snippet_thumb.png"/>
+				<span class="oe_snippet_thumbnail_title">Tabs</span>
+			</div>
+
+			<section class="oe_snippet_body">
+				<div class="container">
+					<div class="row">
+						<div class="process">
+							<!-- Nav tabs -->
+							<ul class="nav nav-pills white space-top" role="tablist">
+								<li class="">
+									<a href="#pill-pr-1" role="tab" data-toggle="tab" title="Step 1"
+									   aria-expanded="false">
+										<i class="fa fa-dot-circle-o pr-5"></i>
+										Step 1
+									</a>
+								</li>
+								<li class="">
+									<a href="#pill-pr-2" role="tab" data-toggle="tab" title="Step 2"
+									   aria-expanded="false">
+										<i class="fa fa-dot-circle-o pr-5"></i>
+										Step 2
+									</a>
+								</li>
+								<li class="active">
+									<a href="#pill-pr-3" role="tab" data-toggle="tab" title="Step 3"
+									   aria-expanded="true">
+										<i class="fa fa-dot-circle-o pr-5"></i>
+										Step 3
+									</a>
+								</li>
+							</ul>
+							<!-- Tab panes -->
+							<div class="tab-content clear-style">
+								<div class="tab-pane" id="pill-pr-1">
+									<h3>Step 1</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, labore
+										iste! Pariatur tempore, dicta voluptatibus quis blanditiis voluptates
+										in. Molestiae asperiores sed, pariatur nesciunt saepe. Culpa ipsam ut
+										enim reiciendis!
+									</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis eaque
+										nihil obcaecati minus perferendis officiis cumque nesciunt quae dolorem
+										ad tenetur voluptate blanditiis labore libero id veritatis similique
+										facere, fugiat soluta omnis minima? Iusto optio hic a reiciendis,
+										inventore numquam impedit quaerat deserunt, voluptatum illum in magni,
+										aspernatur corporis mollitia nam? Ipsum, cumque facilis recusandae
+										commodi dolorum sequi quis possimus, aut, ab incidunt dolorem
+										perferendis rerum tenetur. Labore exercitationem magni perspiciatis
+										laborum, aliquam officia molestias obcaecati, voluptatum quidem eum iure
+										aut, officiis dicta cupiditate ab, sit aliquid. Corporis ducimus ab
+										commodi officia? Inventore suscipit saepe dolorem vitae aperiam autem,
+										iusto id, enim assumenda modi a voluptate aliquam molestiae quidem
+										sapiente, obcaecati recusandae. Magni repellat dignissimos sint iste
+										dolorem maxime accusantium quas repellendus quam ipsa, sapiente, beatae
+										enim ab ex. Optio eveniet necessitatibus, tempora dolor eaque saepe,
+										ipsam vero at officiis cumque, maxime consequuntur in ea, voluptate quae
+										nesciunt hic delectus.
+									</p>
+								</div>
+								<div class="tab-pane" id="pill-pr-2">
+									<h3>Step 2</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, labore
+										iste! Pariatur tempore, dicta voluptatibus quis blanditiis voluptates
+										in. Molestiae asperiores sed, pariatur nesciunt saepe. Culpa ipsam ut
+										enim reiciendis!
+									</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, labore
+										iste! Pariatur tempore, dicta voluptatibus quis blanditiis voluptates
+										in. Molestiae asperiores sed, pariatur nesciunt saepe. Culpa ipsam ut
+										enim reiciendis!
+									</p>
+								</div>
+								<div class="tab-pane active" id="pill-pr-3">
+									<h3>Step 3</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, labore
+										iste! Pariatur tempore, dicta voluptatibus quis blanditiis voluptates
+										in. Molestiae asperiores sed, pariatur nesciunt saepe. Culpa ipsam ut
+										enim reiciendis!
+									</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, labore
+										iste! Pariatur tempore, dicta voluptatibus quis blanditiis voluptates
+										in. Molestiae asperiores sed, pariatur nesciunt saepe. Culpa ipsam ut
+										enim reiciendis!
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</xpath>
+</template>
 </odoo>
