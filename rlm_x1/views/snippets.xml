@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-	<template id="snippet_two_columns" inherit_id="website.snippets" name="Two Column Snippet">
+	<template id="rlm_two_columns" inherit_id="website.snippets" name="Two Column Snippet">
 		<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
 			<div>
 				<div class="oe_snippet_thumbnail">
 					<img class="oe_snippet_thumbnail_img" src="/rlm_x1/static/src/img/ui/snippet_thumb.jpg"/>
 					<span class="oe_snippet_thumbnail_title">Two Column Snippet</span>
 				</div>
-				<section class="snippet_two_columns">
+				<section class="oe_snippet_body">
 					<div class="container text-center">
 						<div class="row">
 							<div class="col-md-6">
@@ -24,14 +24,14 @@
 			</div>
 		</xpath>
 	</template>
-	<template id="snippet_roundbox" inherit_id="website.snippets" name="Rounded Corner Box">
+	<template id="rlm_roundbox" inherit_id="website.snippets" name="Rounded Corner Box">
 		<xpath expr="//div[@id='snippet_content']/div[@class='o_panel_body']" position="inside">
 			<div>
 				<div class="oe_snippet_thumbnail">
 					<img class="oe_snippet_thumbnail_img" src="/rlm_x1/static/src/img/ui/snippet_roundbox_thumb.jpg"/>
 					<span class="oe_snippet_thumbnail_title">Rounded Corner Box</span>
 				</div>
-				<section class="snippet_roundbox">
+				<section class="oe_snippet_body">
 					<div class="roundbox">
 					  Lorem ipsum dolor sit amet, consectetur adipiscing elit.	Lorem ipsum dolor sit amet, consectetur adipiscing elit.	Lorem ipsum dolor sit amet, consectetur adipiscing elit.	Lorem ipsum dolor sit amet, consectetur adipiscing elit.	Lorem ipsum dolor sit amet, consectetur adipiscing elit.	Lorem ipsum dolor sit amet, consectetur adipiscing elit.	Lorem ipsum dolor sit amet, consectetur adipiscing elit.	
 					</div>
@@ -42,7 +42,7 @@
 	<template id="rlm_tabs" inherit_id="website.snippets" name="Tabs">
 		<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
 			<div>
-				<div class="louma oe_snippet_thumbnail">
+				<div class="oe_snippet_thumbnail">
 					<img class="oe_snippet_thumbnail_img" src="/rlm_x1/static/src/img/ui/snippet_tabs.jpg"/>
 					<span class="oe_snippet_thumbnail_title">Tabs</span>
 				</div>
