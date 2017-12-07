@@ -43,7 +43,7 @@
 		<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
 			<div>
 				<div class="louma oe_snippet_thumbnail">
-					<img class="oe_snippet_thumbnail_img" src="/rlm_x1/static/src/img/ui/tabs.jpg"/>
+					<img class="oe_snippet_thumbnail_img" src="/rlm_x1/static/src/img/ui/snippet_tabs.jpg"/>
 					<span class="oe_snippet_thumbnail_title">Tabs</span>
 				</div>
 				<section class="oe_snippet_body">
