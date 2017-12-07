@@ -1,67 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
 <odoo>
 	<template id="snippet_two_columns" name="Two Column Snippet">
-	  <section class="snippet_two_columns">
-		<div class="container text-center">
-		  <div class="row">
-			<div class="col-md-6">
-			  <h3>Left</h3>
-			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+			<div>
+				<div class="oe_snippet_thumbnail">
+					<img class="oe_snippet_thumbnail_img" src="/rlm_x1/static/src/img/ui/snippet_thumb.jpg"/>
+					<span class="oe_snippet_thumbnail_title">Two Column Snippet</span>
+				</div>
+				<section class="snippet_two_columns">
+					<div class="container text-center">
+						<div class="row">
+							<div class="col-md-6">
+								<h3>Left</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+							<div class="col-md-6">
+								<h3>Right</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+					</div>
+				</section>
 			</div>
-			<div class="col-md-6">
-			  <h3>Right</h3>
-			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		</xpath>
+	</template>
+	<template id="snippet_roundbox" name="Rounded Corner Box">
+		<xpath expr="//div[@id='snippet_content']/div[@class='o_panel_body']" position="inside">
+			<div>
+				<div class="oe_snippet_thumbnail">
+					<img class="oe_snippet_thumbnail_img" src="/rlm_x1/static/src/img/ui/snippet_roundbox_thumb.jpg"/>
+					<span class="oe_snippet_thumbnail_title">Rounded Corner Box</span>
+				</div>
+				<section class="snippet_roundbox">
+					<div class="roundbox">
+					  Lorem ipsum dolor sit amet, consectetur adipiscing elit.	Lorem ipsum dolor sit amet, consectetur adipiscing elit.	Lorem ipsum dolor sit amet, consectetur adipiscing elit.	Lorem ipsum dolor sit amet, consectetur adipiscing elit.	Lorem ipsum dolor sit amet, consectetur adipiscing elit.	Lorem ipsum dolor sit amet, consectetur adipiscing elit.	Lorem ipsum dolor sit amet, consectetur adipiscing elit.	
+					</div>
+				</section>
 			</div>
-		  </div>
-		</div>
-	  </section>
+		</xpath>
 	</template>
 	<template id="rlm_tabs" inherit_id="website.snippets" name="Tabs">
-	<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
-		<div>
-			<div class="louma oe_snippet_thumbnail">
-				<img class="oe_snippet_thumbnail_img"
-					 src="/theme_louma/static/src/images/theme/blocks/snippet_thumb.png"/>
-				<span class="oe_snippet_thumbnail_title">Tabs</span>
-			</div>
-
-			<section class="oe_snippet_body">
-				<div class="container">
-					<div class="row">
-						<div class="process">
-							<!-- Nav tabs -->
-							<ul class="nav nav-pills white space-top" role="tablist">
-								<li class="">
-									<a href="#pill-pr-1" role="tab" data-toggle="tab" title="Step 1"
-									   aria-expanded="false">
-										<i class="fa fa-dot-circle-o pr-5"></i>
+		<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+			<div>
+				<div class="louma oe_snippet_thumbnail">
+					<img class="oe_snippet_thumbnail_img" src="/rlm_x1/static/src/img/ui/tabs.jpg"/>
+					<span class="oe_snippet_thumbnail_title">Tabs</span>
+				</div>
+				<section class="oe_snippet_body">
+					<div class="container">
+						<div class="row">
+							<div class="process">
+								<!-- Nav tabs -->
+								<ul class="nav nav-pills white space-top" role="tablist">
+									<li class="">
+										<a href="#pill-pr-1" role="tab" data-toggle="tab" title="Step 1" aria-expanded="false"><i class="fa fa-dot-circle-o pr-5"/>
 										Step 1
 									</a>
-								</li>
-								<li class="">
-									<a href="#pill-pr-2" role="tab" data-toggle="tab" title="Step 2"
-									   aria-expanded="false">
-										<i class="fa fa-dot-circle-o pr-5"></i>
+									</li>
+									<li class="">
+										<a href="#pill-pr-2" role="tab" data-toggle="tab" title="Step 2" aria-expanded="false"><i class="fa fa-dot-circle-o pr-5"/>
 										Step 2
 									</a>
-								</li>
-								<li class="active">
-									<a href="#pill-pr-3" role="tab" data-toggle="tab" title="Step 3"
-									   aria-expanded="true">
-										<i class="fa fa-dot-circle-o pr-5"></i>
+									</li>
+									<li class="active">
+										<a href="#pill-pr-3" role="tab" data-toggle="tab" title="Step 3" aria-expanded="true"><i class="fa fa-dot-circle-o pr-5"/>
 										Step 3
 									</a>
-								</li>
-							</ul>
-							<!-- Tab panes -->
-							<div class="tab-content clear-style">
-								<div class="tab-pane" id="pill-pr-1">
-									<h3>Step 1</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, labore
+									</li>
+								</ul>
+								<!-- Tab panes -->
+								<div class="tab-content clear-style">
+									<div class="tab-pane" id="pill-pr-1">
+										<h3>Step 1</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, labore
 										iste! Pariatur tempore, dicta voluptatibus quis blanditiis voluptates
 										in. Molestiae asperiores sed, pariatur nesciunt saepe. Culpa ipsam ut
 										enim reiciendis!
 									</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis eaque
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis eaque
 										nihil obcaecati minus perferendis officiis cumque nesciunt quae dolorem
 										ad tenetur voluptate blanditiis labore libero id veritatis similique
 										facere, fugiat soluta omnis minima? Iusto optio hic a reiciendis,
@@ -79,58 +95,39 @@
 										ipsam vero at officiis cumque, maxime consequuntur in ea, voluptate quae
 										nesciunt hic delectus.
 									</p>
-								</div>
-								<div class="tab-pane" id="pill-pr-2">
-									<h3>Step 2</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, labore
+									</div>
+									<div class="tab-pane" id="pill-pr-2">
+										<h3>Step 2</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, labore
 										iste! Pariatur tempore, dicta voluptatibus quis blanditiis voluptates
 										in. Molestiae asperiores sed, pariatur nesciunt saepe. Culpa ipsam ut
 										enim reiciendis!
 									</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, labore
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, labore
 										iste! Pariatur tempore, dicta voluptatibus quis blanditiis voluptates
 										in. Molestiae asperiores sed, pariatur nesciunt saepe. Culpa ipsam ut
 										enim reiciendis!
 									</p>
-								</div>
-								<div class="tab-pane active" id="pill-pr-3">
-									<h3>Step 3</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, labore
+									</div>
+									<div class="tab-pane active" id="pill-pr-3">
+										<h3>Step 3</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, labore
 										iste! Pariatur tempore, dicta voluptatibus quis blanditiis voluptates
 										in. Molestiae asperiores sed, pariatur nesciunt saepe. Culpa ipsam ut
 										enim reiciendis!
 									</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, labore
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, labore
 										iste! Pariatur tempore, dicta voluptatibus quis blanditiis voluptates
 										in. Molestiae asperiores sed, pariatur nesciunt saepe. Culpa ipsam ut
 										enim reiciendis!
 									</p>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			</section>
-		</div>
-	</xpath>
-</template>
-	<template id="snippet_roundbox" name="Rounded Corner Box">
-	  <section class="snippet_roundbox">
-		<div class="roundbox">
-		  Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Lorem ipsum dolor sit amet, consectetur adipiscing elit.	Lorem ipsum dolor sit amet, consectetur adipiscing elit.	Lorem ipsum dolor sit amet, consectetur adipiscing elit.	Lorem ipsum dolor sit amet, consectetur adipiscing elit.	Lorem ipsum dolor sit amet, consectetur adipiscing elit.	Lorem ipsum dolor sit amet, consectetur adipiscing elit.	
-		</div>
-	  </section>
-	</template>
-	
-	<template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
-	  <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
-		<t t-snippet="rlm_x1.snippet_two_columns"
-		   t-thumbnail="/rlm_x1/static/src/img/ui/snippet_thumb.jpg"/>
-	  </xpath>
-	  
-	  <xpath expr="//div[@id='snippet_content']/div[@class='o_panel_body']" position="inside">
-		<t t-snippet="rlm_x1.snippet_roundbox"
-		   t-thumbnail="/rlm_x1/static/src/img/ui/snippet_roundbox_thumb.jpg"/>
-	  </xpath>
+				</section>
+			</div>
+		</xpath>
 	</template>
 </odoo>
