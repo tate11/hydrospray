@@ -16,7 +16,7 @@
   </section>
 </template>
 <template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
-  <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+  <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
     <t t-snippet="rlm_website_custom_css.snippet_two_columns"
        t-thumbnail="/rlm_website_custom_css/static/src/img/ui/snippet_thumb.jpg"/>
   </xpath>

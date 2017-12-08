@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 	<template id="rlm_two_columns" inherit_id="website.snippets" name="Two Column Snippet">
-		<xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]/t" position="inside">
+		<xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
 			<div>
 				<div class="oe_snippet_thumbnail">
 					<img class="oe_snippet_thumbnail_img" src="/rlm_x1/static/src/img/ui/snippet_thumb.jpg"/>
@@ -25,7 +25,7 @@
 		</xpath>
 	</template>
 	<template id="rlm_roundbox" inherit_id="website.snippets" name="Rounded Corner Box">
-		<xpath expr="//div[@id='snippet_content']/div[hasclass('o_panel_body')]/t" position="inside">
+		<xpath expr="//div[@id='snippet_content']/div[hasclass('o_panel_body')]" position="inside">
 			<div>
 				<div class="oe_snippet_thumbnail">
 					<img class="oe_snippet_thumbnail_img" src="/rlm_x1/static/src/img/ui/snippet_roundbox_thumb.jpg"/>
@@ -40,7 +40,7 @@
 		</xpath>
 	</template>
 	<template id="rlm_tabs_2" inherit_id="website.snippets" name="Tabs (2)">
-		<xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]/t" position="inside">
+		<xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
 			<div>
 				<div class="oe_snippet_thumbnail">
 					<img class="oe_snippet_thumbnail_img" src="/rlm_x1/static/src/img/ui/snippet_tabs.jpg"/>
@@ -113,7 +113,7 @@
 		</xpath>
 	</template>
 	<template id="rlm_tabs_3" inherit_id="website.snippets" name="Tabs (3)">
-		<xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]/t" position="inside">
+		<xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
 			<div>
 				<div class="oe_snippet_thumbnail">
 					<img class="oe_snippet_thumbnail_img" src="/rlm_x1/static/src/img/ui/snippet_tabs.jpg"/>
@@ -204,7 +204,7 @@
 		</xpath>
 	</template>
 	<template id="rlm_tabs_4" inherit_id="website.snippets" name="Tabs (4)">
-		<xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]/t" position="inside">
+		<xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
 			<div>
 				<div class="oe_snippet_thumbnail">
 					<img class="oe_snippet_thumbnail_img" src="/rlm_x1/static/src/img/ui/snippet_tabs.jpg"/>
@@ -313,7 +313,7 @@
 		</xpath>
 	</template>
 	<template id="rlm_tabs_5" inherit_id="website.snippets" name="Tabs (5)">
-		<xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]/t" position="inside">
+		<xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
 			<div>
 				<div class="oe_snippet_thumbnail">
 					<img class="oe_snippet_thumbnail_img" src="/rlm_x1/static/src/img/ui/snippet_tabs.jpg"/>
