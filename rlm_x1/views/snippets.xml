@@ -497,7 +497,7 @@
 		</section>
 	</template>
 	<template id="s_options_tabs" inherit_id="website.snippet_options">
-		<xpath expr="." position="inside">
+		<xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
 			<div data-js="tabs" data-selector=".s_tabs .tabs_container">
 				<li data-add_tab="">
 					<a>Add a tab</a>
