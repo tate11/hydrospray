@@ -1,42 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-	<template inherit_id="website.snippets" name="Custom Menu Left" id="rlm_custom_menu_left">
-		<xpath expr="//div[@id='snippet_feature']//t[@t-snippet][last()]" position="after">
-			<div class="oe_snippet_thumbnail">
-				<img class="oe_snippet_thumbnail_img" src="/rlm_x1/static/src/img/ui/snippet_roundbox_thumb.jpg"/>
-				<span class="oe_snippet_thumbnail_title">Custom Menu Left</span>
-			</div>
-			<section class="oe_snippet_body s_custom_menu_left">
-				<div class="col-md-12 mb16 mt16">
-					<h2>Menu</h2>
-					<ul>
-						<li>Item 1</li>
-						<li>Item 2</li>
-						<li>Item 3</li>
-					</ul>
-					<p>
-						<br/>
-					</p>
-					<h2>Top Categories</h2>
-					<ul>
-						<li>IN-BAY AUTOMATIC</li>
-						<li>TUNNEL WASH</li>
-						<li>SELF SERVE</li>
-						<li>FLEET WASH</li>
-						<li>MOBILE WASH</li>
-						<li>CHEMICALS</li>
-						<li>WATER TREATMENT</li>
-						<li>METERBOXES</li>
-						<li>POS SYSTEMS</li>
-						<li>PAY STATIONS</li>
-						<li>CHANGE MACHINES</li>
-						<li>SIGNS &amp; CANOPIES</li>
-						<li>BAY ACCESSORIES</li>
-					</ul>
-				</div>
-			</section>
-		</xpath>
-	</template>
+	
 	<template id="rlm_two_columns" inherit_id="website.snippets" name="Two Column Snippet">
 		<xpath expr="//div[@id='snippet_content']/div[hasclass('o_panel_body')]" position="inside">
 			<div>
