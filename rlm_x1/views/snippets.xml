@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+
+<template inherit_id="website.snippets" name="Custom Menu Left" t-name="website.s_custom_menu_left">
+  <section class="s_custom_menu_left">
+    <div class="col-md-12 mb16 mt16">
+		<h2>Menu</h2>
+		<ul>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+		</ul>
+		<p>
+			<br/>
+		</p>
+		<h2>Top Categories</h2>
+		<ul>
+			<li>IN-BAY AUTOMATIC</li>
+			<li>TUNNEL WASH</li>
+			<li>SELF SERVE</li>
+			<li>FLEET WASH</li>
+			<li>MOBILE WASH</li>
+			<li>CHEMICALS</li>
+			<li>WATER TREATMENT</li>
+			<li>METERBOXES</li>
+			<li>POS SYSTEMS</li>
+			<li>PAY STATIONS</li>
+			<li>CHANGE MACHINES</li>
+			<li>SIGNS &amp; CANOPIES</li>
+			<li>BAY ACCESSORIES</li>
+		</ul>
+	</div>
+	
+	</section>
+</template>
 	<template id="rlm_two_columns" inherit_id="website.snippets" name="Two Column Snippet">
 		<xpath expr="//div[@id='snippet_content']/div[hasclass('o_panel_body')]" position="inside">
 			<div>
