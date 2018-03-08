@@ -8,7 +8,7 @@
 				<script type="text/javascript" src="/rlm_x1/static/src/js/custom1.js"/>
 			</xpath>
 		</template>
-		<template inherit_id="portal.frontend_layout" name="rlm_x1 Custom Menu Left" t-name="website.rlm_x1_custom_menu_left">
+		<template inherit_id="portal.frontend_layout" name="rlm_x1 Custom Menu Left" id="rlm_x1_custom_menu_left">
 			<xpath expr="//main" position="inside">
 				<div class="col-md-12 mb16 mt16">
 					<h2>Menu</h2>
