@@ -16,10 +16,10 @@
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
     # for the full list
     'category': 'Website',
-    'version': '0.3.3',
+    'version': '0.3.4',
 
     # any module necessary for this one to work correctly
-    'depends': ['web','web_editor','website'],
+    'depends': ['web','web_editor','website','portal'],
 
     # always loaded
     'data': [
